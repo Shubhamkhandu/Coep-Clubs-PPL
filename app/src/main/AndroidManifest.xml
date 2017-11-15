@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sg_22.imgbutt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".BoatClub"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Astronomy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rsc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANC"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PhotographyCLub"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DanceClub"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OctaneRacing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TeamNemesis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sunrisers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AeroZealous"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BCquiz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".debate1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".google"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ham"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".janeev"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScienceClub"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpandanClub"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TedxCoepClub"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CSAT"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".acm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".personal_development"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cofsug"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AaryaRaas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".e_cell"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".i2i"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".phylo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".student_welfare_forum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Spicmacay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NSS"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
